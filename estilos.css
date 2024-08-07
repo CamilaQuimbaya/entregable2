@@ -1,0 +1,69 @@
+*{
+    font-family: "Fredoka", sans-serif;
+}
+
+
+
+body{
+    background-image: url("./img/background4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+.myButton{
+    background: none;
+    border: none;
+    background: #F3E7E5;
+    color:#a7577b ;
+    font-size: 1rem;
+    padding: 15px;
+    border-radius: 40px;
+}
+
+.myButton:hover{
+    background-color: #a7577b;
+    color: #F3E7E5;
+}
+
+
+.myTittle{
+    font-size: 5rem;
+    color:#a7577b;
+    margin-bottom: 50px;
+    font-family: "Pacifico", cursive;
+}
+
+p{
+    font-size: 1rem;
+    color: #663f51;
+}
+
+.myTittleCard{
+    font-size: 1.8rem;
+    color: #c56a94;
+    font-family: "Pacifico", cursive;
+}
+
+
+@media(max-width:876px){
+  .myTittle{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+
+
+  .contentLand{
+    /* From https://css.glass */
+    background: rgba(149, 55, 100, 0.12);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(149, 55, 100, 0.29);
+    padding: 20px;
+  }
+}
